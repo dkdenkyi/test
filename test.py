@@ -1,7 +1,8 @@
-print("I'm hungry")
+import math
 
-print("Hello world")
+a = float(input())
+factor = 100
 
-print('this is my first github test')
-
-print('hellooo worlllllldddd')
+num = a * factor
+newnum = math.ceil(num)
+print(newnum/factor)
